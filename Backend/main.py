@@ -7,7 +7,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from starlette.middleware.sessions import SessionMiddleware
 from Backend.auth import router as auth_router
-from Backend.user import router as user_router
+from Backend.user_routes import router as user_router
 from Backend.database import Base, engine
 from Backend import models
 
